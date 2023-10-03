@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+  #photo{
+    width: 100%;
+    margin-bottom: 90px;
+  }
+  .centered{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:  #fff70b;
+    font-weight: bolder;
+    font-size: 50px;
+  }
+
+
+.us{
+    float: left;
+}
+#photoUs{
+    margin-top: 70px;
+    margin-left: 80px;
+    margin-right: 170px;
+}
+
+.cotainer{
+    display: flex;
+}
+.info{
+    margin-left: 150px;
+    float: left;
+    border: 1px dotted rgb(243, 236, 141);
+    border-radius: 15px;
+    padding: 30px;
+}
+.infoOffice{
+    color: white;
+    padding-right: 75px;
+}
+.fa-map-marker{
+    padding: 9px 15px;
+    color: #ccc735;
+    border: 2px solid #ccc735;
+    border-radius: 50px;
+}
+.link1{
+    text-decoration: none;
+    color: white;
+}
+.link1:hover{
+    color: #ccc735;
+}
+.fa-phone, .fa-envelope-o, .fa-clock-o{
+    padding: 9px 15px;
+    color: #ccc735;
+    border: 2px solid #ccc735;
+    border-radius: 50px;
+    margin-top: 8px;
+}
+  
+  .form-container {
+    color: wheat;
+  }
+  .input, select, textarea {
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    margin-left: 150px;
+}
+.label{
+    margin-left: 150px;
+}
+#submit2{
+    cursor: pointer;
+    width: 150px;
+    background-color: #ccc735;
+    font-weight: bold;
+    margin-left: 648px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+#submit2:hover{
+    background-color: #ccc;
+    color: black;
+    font-weight: bold;
+}
+
+
+@media (max-width: 700px){
+    footer{
+        bottom: unset;
+    }
+    .col{
+        flex-basis: 100%;
+    }
+    .col:nth-child(2), .col:nth-child(3){
+        flex-basis: 100%;
+    }
+
+}
