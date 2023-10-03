@@ -2,67 +2,9 @@ body{
     background-color: black;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto';
-  }
-  #logo{
-    width: 230px;
-    float: left;
-    padding-left: 35px;
-    padding-right: 370px;
-  }
-  .navbar {
-    z-index: 1;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  .navbar-links{
-    z-index: 1;
-    list-style-type: none;
-    margin-right: -20px;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  .nav{
-    float: left;
-  }
-  
-  .link {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover{
-    background-color: black;
-  }
-  
-  .fa{
-    border-left: solid #ccc735;
-    padding-left: 29px;
-    display: none;
-  } 
-  .faIcon{
-    padding-right: 25px;
-    display: none;
-  }
-  
-  .mobile-menu{
-    display: none;
-  }
-  
-  .active {
-    color: #ccc735;
-  }
   #myVideo {
     right: 0;
     bottom: 0;
