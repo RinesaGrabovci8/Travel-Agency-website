@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+  #photo{
+    width: 100%;
+    margin-bottom: 90px;
+  }
+  .centered{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:  #fff70b;
+    font-weight: bolder;
+    font-size: 50px;
+  }
+  #photo1{
+    width: 75px;
+    height: 75px;
+  }
+  .text{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+  }
+
+  .wrap{
+    
+    color: black;
+    text-align: center;
+    margin: 6px;
+    margin-top: 60px;
+  }
+  .text2{
+    background-color:rgb(248, 248, 181) ;
+    border: 1px solid #ccc735;
+    padding: 15px;
+  }
+  .fact{
+    background-color: lightgoldenrodyellow;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 8px;
+    padding-right: 2px;
+    border:  1px dotted #ccc735;
+   
+}
+.pic{
+    width: 350px;
+    height: 280px;
+    border-radius: 15px;
+    border: 7px solid #ddd;
+}
+.pic:hover {
+    box-shadow: 0 0 2px 1px rgba(158, 0, 186, 0.5);
+    opacity: 0.8;
+    transition: 3;
+  }
+  .Text{
+    text-decoration: underline;
+  }
+.div3{
+    margin-top: 60px;
+    color: rgb(244, 244, 136);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.fa-compass{
+    color: wheat;
+}
+.linkB{
+    text-decoration: none;
+    color: black ;
+    font-weight: bold;
+  
+}
+#button{
+    padding: 8px 15px;
+    background-color: rgb(248, 245, 188);
+    margin-top: 8px;
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "WEB",
+			"path": "."
+		},
+		{
+			"name": "Images",
+			"path": "../../../../xampp/htdocs/web-Projekti2-master/Images"
+		}
+	],
+	"settings": {}
+}
